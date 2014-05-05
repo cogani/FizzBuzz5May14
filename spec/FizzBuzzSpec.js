@@ -37,4 +37,12 @@ describe("FizzBuzz Kata", function(){
 
         expect(result).toBe('fizz');
     })
+
+    it("will return buzz when 10 is supplied", function(){
+        var result;
+        result = fizzbuzz(10);
+
+
+        expect(result).toBe('buzz');
+    })
 })
