@@ -29,4 +29,12 @@ describe("FizzBuzz Kata", function(){
 
         expect(result).toBe('buzz');
     })
+
+    it("will return fizz when 6 is supplied", function(){
+        var result;
+        result = fizzbuzz(6);
+
+
+        expect(result).toBe('fizz');
+    })
 })

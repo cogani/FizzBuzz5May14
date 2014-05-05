@@ -1,6 +1,6 @@
 function fizzbuzz(aNumber){
 
-    if(aNumber==3)
+    if(aNumber%3===0)
         return 'fizz';
 
     if(aNumber==5)
