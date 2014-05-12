@@ -1,24 +1,15 @@
 function fizzbuzz(aNumber){
 
-    var result;
+    var result="";
 
     if(isDivisibleBy(aNumber,3))
         result = 'fizz';
 
-    if(isDivisibleBy(aNumber,3))
+    if(isDivisibleBy(aNumber,5))
         result += 'buzz';
     
-    if(isDivisibleBy(aNumber,3) && isDivisibleBy(aNumber,5))
-        return "fizzbuzz";
-
-    if(aNumber%3===0)
-        return 'fizz';
-
-    if(aNumber%5 ===0)
-        return 'buzz';
-
-
-    return aNumber;
+    if(result==="") return aNumber;
+    else return result;
 }
 
 function isDivisibleBy(){
